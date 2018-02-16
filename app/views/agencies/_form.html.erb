@@ -11,6 +11,21 @@
     </div>
   <% end %>
 
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :agency_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :abbrev %>
+    <%= form.text_field :abbrev, id: :agency_abbrev %>
+  </div>
+
+  <div class="field">
+    <%= form.label :countryCode %>
+    <%= form.text_field :countryCode, id: :agency_countryCode %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>

@@ -11,6 +11,21 @@
     </div>
   <% end %>
 
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :rocket_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :wiki %>
+    <%= form.text_field :wiki, id: :rocket_wiki %>
+  </div>
+
+  <div class="field">
+    <%= form.label :img %>
+    <%= form.text_field :img, id: :rocket_img %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>

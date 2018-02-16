@@ -10,10 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180216055610) do
+ActiveRecord::Schema.define(version: 20180216153609) do
 
   create_table "agencies", force: :cascade do |t|
-    t.integer "agency_id"
     t.string "name"
     t.string "abbrev"
     t.string "countryCode"
@@ -43,12 +42,18 @@ ActiveRecord::Schema.define(version: 20180216055610) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "rocket_pads", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "rockets", force: :cascade do |t|
     t.string "name"
     t.string "wiki"
     t.string "info"
     t.string "img"
-    t.integer "agency"
+    t.integer "agency_id"
+    t.integer "defaultPad"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -5,6 +5,9 @@
 <table>
   <thead>
     <tr>
+      <th>Name</th>
+      <th>Abbrev</th>
+      <th>Countrycode</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -12,6 +15,9 @@
   <tbody>
     <% @agencies.each do |agency| %>
       <tr>
+        <td><%= agency.name %></td>
+        <td><%= agency.abbrev %></td>
+        <td><%= agency.countryCode %></td>
         <td><%= link_to 'Show', agency %></td>
         <td><%= link_to 'Edit', edit_agency_path(agency) %></td>
         <td><%= link_to 'Destroy', agency, method: :delete, data: { confirm: 'Are you sure?' } %></td>
