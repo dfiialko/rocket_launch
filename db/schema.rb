@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20180216153609) do
   end
 
   create_table "missions", force: :cascade do |t|
-    t.integer "mission_id"
+    t.integer "agency_id"
     t.string "name"
     t.text "description"
     t.integer "agency"
@@ -43,8 +43,12 @@ ActiveRecord::Schema.define(version: 20180216153609) do
   end
 
   create_table "rocket_pads", force: :cascade do |t|
+    t.integer "rocket_id"
+    t.integer "pad_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["pad_id"], name: "index_rocket_pads_on_pad_id"
+    t.index ["rocket_id"], name: "index_rocket_pads_on_rocket_id"
   end
 
   create_table "rockets", force: :cascade do |t|
@@ -52,7 +56,7 @@ ActiveRecord::Schema.define(version: 20180216153609) do
     t.string "wiki"
     t.string "info"
     t.string "img"
-    t.integer "agency_id"
+    t.string "designed_by"
     t.integer "defaultPad"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

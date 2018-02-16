@@ -5,7 +5,7 @@ class CreateRockets < ActiveRecord::Migration[5.1]
       t.string :wiki
       t.string :info
       t.string :img
-      t.integer :agency_id
+      t.string :designed_by
       t.integer :defaultPad
       t.timestamps
     end
