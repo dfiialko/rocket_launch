@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180215183938) do
+ActiveRecord::Schema.define(version: 20180216055610) do
 
   create_table "agencies", force: :cascade do |t|
     t.integer "agency_id"
@@ -18,6 +18,27 @@ ActiveRecord::Schema.define(version: 20180215183938) do
     t.string "abbrev"
     t.string "countryCode"
     t.integer "islsp"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "missions", force: :cascade do |t|
+    t.integer "mission_id"
+    t.string "name"
+    t.text "description"
+    t.integer "agency"
+    t.string "wiki"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "pads", force: :cascade do |t|
+    t.integer "pad_id"
+    t.string "name"
+    t.string "map"
+    t.string "agency"
+    t.string "info"
+    t.string "wiki"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
