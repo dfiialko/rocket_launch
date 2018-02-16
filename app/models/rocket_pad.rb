@@ -1,4 +1,4 @@
 class RocketPad < ApplicationRecord
-  belongs_to :rockets
-  belongs_to :pads
+  belongs_to :rocket, dependent: :destroy
+  belongs_to :pad , dependent: :destroy
 end

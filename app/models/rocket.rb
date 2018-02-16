@@ -1,4 +1,3 @@
 class Rocket < ApplicationRecord
-  belongs_to :agency
-  has_many :pads,through: :rocket_pads
+  has_many :pads,through: :rocket_pads, dependent: :destroy
 end
