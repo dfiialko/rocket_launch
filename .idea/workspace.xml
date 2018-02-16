@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f58990-ef28-4c40-bbab-aae602fa569b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/models/agency.rb" afterPath="$PROJECT_DIR$/app/models/agency.rb" />
-      <change beforePath="$PROJECT_DIR$/app/models/pad.rb" afterPath="$PROJECT_DIR$/app/models/pad.rb" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20180215010138_create_rockets.rb" afterPath="$PROJECT_DIR$/db/migrate/20180215010138_create_rockets.rb" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20180216055610_create_missions.rb" afterPath="$PROJECT_DIR$/db/migrate/20180216055610_create_missions.rb" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20180216153609_create_rocket_pads.rb" afterPath="$PROJECT_DIR$/db/migrate/20180216153609_create_rocket_pads.rb" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-    </list>
+    <list default="true" id="74f58990-ef28-4c40-bbab-aae602fa569b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -29,8 +20,8 @@
       <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="139" column="108" lean-forward="false" selection-start-line="139" selection-start-column="108" selection-end-line="139" selection-end-column="108" />
+            <state relative-caret-position="384">
+              <caret line="133" column="27" lean-forward="true" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -418,12 +409,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518654541899</updated>
       <workItem from="1518654543304" duration="6223000" />
-      <workItem from="1518717072165" duration="39359000" />
+      <workItem from="1518717072165" duration="39407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45582000" />
+    <option name="totallyTimeSpent" value="45630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -676,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="139" column="108" lean-forward="false" selection-start-line="139" selection-start-column="108" selection-end-line="139" selection-end-column="108" />
+        <state relative-caret-position="384">
+          <caret line="133" column="27" lean-forward="true" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
           <folding />
         </state>
       </provider>
