@@ -1,12 +1,12 @@
 class CreateRockets < ActiveRecord::Migration[5.1]
   def change
     create_table :rockets do |t|
-      t.integer :id
       t.string :name
       t.string :wiki
       t.string :info
       t.string :img
-
+      t.integer :agency
+      t.integer :defaultPad
       t.timestamps
     end
   end
